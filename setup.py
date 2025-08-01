@@ -1,4 +1,3 @@
-
 from setuptools import setup, find_packages
 
 setup(
@@ -13,4 +12,6 @@ setup(
     author="anthony-rio",
     description="Football field analysis and visualization tools",
     python_requires=">=3.7",
+    include_package_data=True,
+    zip_safe=False
 )
